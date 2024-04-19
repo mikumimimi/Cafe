@@ -1,10 +1,10 @@
+/* Загальні стилі */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Виправлено шрифт на Arial */
     background-color: #E6E6FA; /* Світло-фіолетовий */
     color: #4B0082; /* Темно-фіолетовий */
     margin: 0;
     padding: 0;
-     font-family: Courier New;
 }
 
 header {
@@ -41,35 +41,28 @@ nav a {
     margin-bottom: 40px;
 }
 
-.container h2, h3 {
+.container h2,
+.container h3 {
     color: #4B0082; /* Темно-фіолетовий */
 }
 
-img.main-image, img.menu-image, img.contact-image {
+img.main-image,
+img.menu-image,
+img.contact-image {
     width: 300px;
     height: auto;
     margin: 10px;
 }
 
-   font-family: Courier New;
 footer {
     background-color: #8A2BE2; /* Фіолетовий */
     color: white;
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer {
-    background-color: #8A2BE2; /* Фіолетовий колір фону */
-    color: white; /* Білий колір тексту */
-    text-align: center; /* Вирівнювання тексту по центру */
     padding: 15px; /* Внутрішні відступи */
     position: fixed; /* Зробити підвал фіксованим */
     bottom: 0; /* Вирівнювання підвалу знизу */
     width: 100%; /* Ширина підвалу по всій сторінці */
-    font-family: Courier New; /* Шрифт для підвалу */
+    font-family: "Courier New", monospace; /* Шрифт для підвалу */
     font-size: 14px; /* Розмір шрифту */
 }
+
